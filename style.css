@@ -1,21 +1,28 @@
-body{
+html{
   height: 100%;
+  min-height: 100%;
+}
+
+body{
   padding-left: 15%;
   padding-right: 15%;
   padding-top: 2.5%;
-  padding-bottom: 100px;
-  background-color: #F4F4F4;
+  background-color: White;
   color: #373737;
+  margin-left: 0,0,200;
 }
 
 footer{
   text-align: center;
-  background-color: #DCD0D0;
   margin-top: 10%;
   width:100%;
-  height:100px;
+  height:200px;
   border-width:1px 0;
   bottom: 0;
+  left: 0;
+  color: white;
+  background-color: #434245;
+  overflow: hidden;
 }
 
 img{
@@ -175,6 +182,10 @@ td{
   margin: 10px;
 }
 
+.container-new img{
+  margin-bottom: 50px;
+}
+
 .container-page{
   min-height: 100%;
   position: relative;
@@ -198,12 +209,55 @@ td{
 .watch-container{
   width: 100%;
   height: auto;
-  background-color: #DCD0D0;
+  border-color: black;
 }
 .watch-container iframe{
   display: inline;
 }
 
 .twitter-timeline{
-  margin-left: 50px;
+  margin-left: 125px;
+}
+
+.banner{
+  width: 400px;
+  height: 150px;
+}
+
+.fa {
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  display:inline-block;
+  line-height: 50px;
+  margin: 10px;
+  margin-bottom: 5px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram{
+    background: rgb(18, 86, 136);
+    color: white;
+}
+
+.fa-youtube{
+  background: rgb(187, 0, 0);
+  color: white;
 }
