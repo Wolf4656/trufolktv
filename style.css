@@ -215,10 +215,6 @@ td{
   display: inline;
 }
 
-.twitter-timeline{
-  margin-left: 125px;
-}
-
 .banner{
   width: 400px;
   height: 150px;
@@ -260,4 +256,38 @@ td{
 .fa-youtube{
   background: rgb(187, 0, 0);
   color: white;
+}
+
+.image1{
+  width: 60%;
+  height: 20%;
+}
+
+.image1 img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.twitter-timeline a{
+  display: block;
+  max-width: 50%;
+  height: 60%;
+}
+
+.twitter-timeline div{
+  width: 25%;
+  height: 40%;
+}
+
+.image2{
+  width: 60%;
+  height: 20%;
+  float: right;
+}
+
+.image2 img{
+  display: block;
+  max-width: 100%;
+  height: auto;
 }

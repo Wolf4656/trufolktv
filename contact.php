@@ -1,6 +1,6 @@
 <?php include "header.php" ?>
 <?php include "navbar.php" ?>
 
-<p>text</p>
+<p>Contact us at: truefolktv@gmail.com</p>
 
 <?php include "footer.php" ?>
