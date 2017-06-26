@@ -6,9 +6,10 @@ class Select {
   */
   public static function connect(){
     $mysql_host = "localhost";
-    $mysql_database = "trufolktv";
-    $mysql_user = "wolf4656";
-    $mysql_password = "Rubiks24";
+    $mysql_user = "wolf4656_1";
+    $mysql_password = "root1";
+    $mysql_database = "wolf4656_truefolktv";
+
 
     //create connection
     $connection = new mysqli($mysql_host, $mysql_user, $mysql_password, $mysql_database);

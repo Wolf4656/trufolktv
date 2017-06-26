@@ -25,7 +25,7 @@ if($result->num_rows > 0) {
       <a href="<?php echo $content["link"]?>"><img src ="https://img.youtube.com/vi/<?php echo $content["thumbnail"]?>/hqdefault.jpg"></a>
     <p><?php echo $content["title"]?></p>
   </div>
-<?php
+<?
   }}  else {
     echo "0 results";
   }
