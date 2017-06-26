@@ -10,7 +10,7 @@
       <img src="image1.jpg" alt="">
     </div>
     <div class="twitter-timeline">
-      <a class="twitter-timeline" data-width="30%" data-height="100%" data-theme="dark" href="https://twitter.com/truefolktv">
+      <a class="twitter-timeline" data-width="30%" data-height="400px" data-theme="dark" href="https://twitter.com/truefolktv">
       Tweets by TrueFolkTV</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div>
@@ -37,25 +37,13 @@ if($result->num_rows > 0) {
 </div>
 <hr>
 
-<h3> What is Trufolk TV? </h3>
 <div class="container-new">
   <div class="image2">
     <img src="image2.jpg" alt="">
   </div>
-    <p style="padding-right:20px">
-      TEXT ABOUT WHAT TRUEFOLK TV IS TEXT ABOUT WHAT TRUEFOLK TV IS TEXT ABOUT WHAT TRUEFOLK TV IS
-      TEXT ABOUT WHAT TRUEFOLK TV IS TEXT ABOUT WHAT TRUEFOLK TV IS TEXT ABOUT WHAT TRUEFOLK TV IS
-      TEXT ABOUT WHAT TRUEFOLK TV IS TEXT ABOUT WHAT TRUEFOLK TV IS TEXT ABOUT WHAT TRUEFOLK TV IS
-      TEXT ABOUT WHAT TRUEFOLK TV IS TEXT ABOUT WHAT TRUEFOLK TV IS TEXT ABOUT WHAT TRUEFOLK TV IS
-      TEXT ABOUT WHAT TRUEFOLK TV IS TEXT ABOUT WHAT TRUEFOLK TV IS TEXT ABOUT WHAT TRUEFOLK TV IS
-      TEXT ABOUT WHAT TRUEFOLK TV IS TEXT ABOUT WHAT TRUEFOLK TV IS TEXT ABOUT WHAT TRUEFOLK TV IS
-      TEXT ABOUT WHAT TRUEFOLK TV IS TEXT ABOUT WHAT TRUEFOLK TV IS TEXT ABOUT WHAT TRUEFOLK TV IS
-      TEXT ABOUT WHAT TRUEFOLK TV IS TEXT ABOUT WHAT TRUEFOLK TV IS TEXT ABOUT WHAT TRUEFOLK TV IS
-      TEXT ABOUT WHAT TRUEFOLK TV IS TEXT ABOUT WHAT TRUEFOLK TV IS TEXT ABOUT WHAT TRUEFOLK TV IS
-      TEXT ABOUT WHAT TRUEFOLK TV IS TEXT ABOUT WHAT TRUEFOLK TV IS TEXT ABOUT WHAT TRUEFOLK TV IS
-      TEXT ABOUT WHAT TRUEFOLK TV IS TEXT ABOUT WHAT TRUEFOLK TV IS TEXT ABOUT WHAT TRUEFOLK TV IS
-      TEXT ABOUT WHAT TRUEFOLK TV IS TEXT ABOUT WHAT TRUEFOLK TV IS TEXT ABOUT WHAT TRUEFOLK TV IS
-      TEXT ABOUT WHAT TRUEFOLK TV IS TEXT ABOUT WHAT TRUEFOLK TV IS TEXT ABOUT WHAT TRUEFOLK TV IS
+    <p class="abouttext">
+      True Folk TV is a project dedicated to promoting community as well as giving
+      emerging artists a platform to promote their work while actively shaping and contributing to culture.
     </p>
 </div>
 
