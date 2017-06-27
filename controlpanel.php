@@ -7,7 +7,6 @@ if (isset($_SESSION["userName"]) == false) {
 <?php include "header.php" ?>
 <?php include "navbar.php" ?>
 <?php include "select.php" ?>
-<?php //$result = Select::smashers(); ?>
 
 <h1>Control Panel</h1>
 

@@ -8,9 +8,9 @@ $password = $_POST["password"];
 
 if (Select::logIn($userName, $password)) {
   $_SESSION["userName"] = $userName;
-  header('Location: http://localhost:9001/controlpanel.php');
+  header('Location: http://truefolktv.com/controlpanel.php');
 } else {
-  header('Location: http://localhost:9001/login.php');
+  header('Location: http://truefolktv.com/login.php');
 }
 
 ?>

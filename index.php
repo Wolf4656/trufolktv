@@ -10,7 +10,7 @@
       <img src="image1.jpg" alt="">
     </div>
     <div class="twitter-timeline">
-      <a class="twitter-timeline" data-width="30%" data-height="400px" data-theme="dark" href="https://twitter.com/truefolktv">
+      <a class="twitter-timeline" data-width="25%" data-height="523px" data-theme="dark" href="https://twitter.com/truefolktv">
       Tweets by TrueFolkTV</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div>

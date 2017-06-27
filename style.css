@@ -267,6 +267,7 @@ td{
   display: block;
   max-width: 100%;
   height: auto;
+  margin-right: 20%;
 }
 
 .twitter-timeline a{
@@ -292,7 +293,7 @@ td{
 }
 
 .contrib-container{
-  width: 30%;
+  width: 25%;
   display: inline-block;
   height: 45%;
   margin: 2%;
@@ -307,4 +308,18 @@ td{
 .abouttext{
   font-size: 20pt;
   width: 35%;
+}
+
+.adminlog{
+  float: right;
+  display: inline-block;
+  width: 4%;
+  height: 12%;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.adminlog a:hover{
+  text-decoration: none;
 }
