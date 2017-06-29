@@ -15,6 +15,16 @@
 <div class="contrib-container">
   <img src="" alt="">
   <br>
+  <p>Egor Subbotin</p>
+  <p>Video Production</p>
+  <p>@egor_stark</p>
+  <p>subbotinegor1@gmail.com</p>
+  <p>https://vk.com/id197798680</p>
+</div>
+
+<div class="contrib-container">
+  <img src="" alt="">
+  <br>
   <p>Jessica Petrylak</p>
   <p>Visuals & Graphics</p>
   <p>@jessicapetrylak</p>
