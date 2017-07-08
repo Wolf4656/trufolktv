@@ -1,6 +1,7 @@
 html{
   height: 100%;
   min-height: 100%;
+  font-family: "Consolas";
 }
 
 body{
@@ -10,6 +11,7 @@ body{
   background-color: White;
   color: #373737;
   margin-left: 0,0,200;
+  font-family: "Consolas";
 }
 
 footer{
@@ -294,20 +296,19 @@ td{
 
 .contrib-container{
   width: 25%;
-  display: inline-block;
-  height: 45%;
+  display: inline-grid;
+  height: 275px;
   margin: 2%;
-}
-
-.contrib-container img{
-  display: block;
-  max-width: 100%;
-  height: auto;
+  color: white;
+  background-color: black;
+  padding: 40px;
+  border-radius: 4px;
 }
 
 .abouttext{
   font-size: 20pt;
   width: 35%;
+  font-family: "Consolas";
 }
 
 .adminlog{

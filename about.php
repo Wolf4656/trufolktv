@@ -3,7 +3,7 @@
 
 <hr>
 
- <p>True Folk TV is a project dedicated to promoting community as well as giving
- emerging artists a platform to promote their work while actively shaping and contributing to culture.</p>
+ <p style="font-size: 30px;">True Folk TV is a project dedicated <br> to promoting community as well as <br> giving
+ emerging artists a platform <br> to promote their work while actively <br> shaping and contributing to culture.</p>
 
 <?php include "footer.php" ?>

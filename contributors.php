@@ -4,8 +4,6 @@
 <hr>
 
 <div class="contrib-container">
-  <img src="matt.jpg" alt="">
-  <br>
   <p>Matt Ebbers</p>
   <p>Producer & Audio Engineering</p>
   <p>@mattebbersmusic</p>
@@ -13,8 +11,6 @@
 </div>
 
 <div class="contrib-container">
-  <img src="" alt="">
-  <br>
   <p>Egor Subbotin</p>
   <p>Video Production</p>
   <p>@egor_stark</p>
@@ -23,8 +19,6 @@
 </div>
 
 <div class="contrib-container">
-  <img src="" alt="">
-  <br>
   <p>Jessica Petrylak</p>
   <p>Visuals & Graphics</p>
   <p>@jessicapetrylak</p>
@@ -32,8 +26,6 @@
 </div>
 
 <div class="contrib-container">
-  <img src="Headshot.jpg" alt="">
-  <br>
   <p>Joshua Wolfson</p>
   <p>Web Developer</p>
   <p>wolfsonjoshua.com</p>
