@@ -6,9 +6,7 @@
 <hr>
 
   <div class="row">
-    <div class="image1">
-      <img src="image1.jpg" alt="">
-    </div>
+    <div class="image1"><img src="/pictures/AZ 2_edited-01.jpeg" alt="..." class="img-responsive"></div>
     <div class="twitter-timeline">
       <a class="twitter-timeline" data-width="25%" data-height="523px" data-theme="dark" href="https://twitter.com/truefolktv">
       Tweets by TrueFolkTV</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -39,7 +37,7 @@ if($result->num_rows > 0) {
 
 <div class="container-new">
   <div class="image2">
-    <img src="image2.jpg" alt="">
+    <img src="/pictures/PF 7_edited-01.jpeg" alt="">
   </div>
     <p class="abouttext">
       True Folk TV is a project dedicated to promoting community as well as giving

@@ -324,3 +324,7 @@ td{
 .adminlog a:hover{
   text-decoration: none;
 }
+
+.carousel-inner{
+  width: 40%;
+}
