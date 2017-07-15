@@ -151,7 +151,7 @@ td{
 }
 
 .episode-container{
-  display: inline-block;
+  display: inline-grid;
   text-align: center;
   width: 32%;
   height: 33%;
@@ -327,4 +327,17 @@ td{
 
 .carousel-inner{
   width: 40%;
+}
+
+.about-pic{
+  width: 50%;
+  height: 20%;
+  float: right;
+  margin-bottom: 20px;
+}
+
+.about-pic img{
+  display: block;
+  max-width: 100%;
+  height: auto;
 }

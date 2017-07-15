@@ -20,7 +20,7 @@
 <?php
 if($result->num_rows > 0) {
   //output data for the latest 3 videos
-  for($row = mysqli_num_rows($result); $row>(mysqli_num_rows($result)-3);$row--) {
+  for($row = mysqli_num_rows($result); ($row>(mysqli_num_rows($result)-3)) && ($row>0);$row--) {
     $content = $result->fetch_assoc()
     ?>
   <div class="episode-container">
