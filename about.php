@@ -1,8 +1,6 @@
 <?php include "header.php" ?>
 <?php include "navbar.php" ?>
 
-<hr>
-
 <div class="about-pic">
   <img src="pictures/OFN 5_edited-01.jpeg" alt="">
 </div>

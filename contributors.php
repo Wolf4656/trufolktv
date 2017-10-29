@@ -1,8 +1,6 @@
 <?php include "header.php" ?>
 <?php include "navbar.php" ?>
 
-<hr>
-
 <div class="contrib-container">
   <p>Matt Ebbers</p>
   <p>Producer & Audio Engineering</p>

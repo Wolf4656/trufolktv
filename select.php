@@ -8,7 +8,7 @@ class Select {
     $mysql_host = "localhost";
     $mysql_user = "wolf4656_1";
     $mysql_password = "root1";
-    $mysql_database = "wolf4656_truefolktv";
+    $mysql_database = "wolf4656_trufolktv";
 
 
     //create connection
@@ -253,6 +253,7 @@ class Select {
    $connection->close();
    return $setup;
  }
+
  public static function logIn($userName, $password){
    $connection = Select::connect();
    $statement = $connection->prepare("
@@ -292,11 +293,46 @@ class Select {
   public static function getVideos(){
     $connection = Select::connect();
     $sql = "SELECT *
-            FROM videos";
+            FROM videos
+            ORDER BY title DESC";
     $videos = $connection->query($sql);
     $connection->close();
     return $videos;
 
+  }
+
+  public static function getBlogs(){
+    $connection = Select::connect();
+    $sql = "SELECT *
+            FROM blog
+            ORDER BY uniqueID DESC";
+    $blogs = $connection->query($sql);
+    $connection->close();
+    return $blogs;
+  }
+
+  public static function addBlogPost($title, $author, $postDate, $blog, $tags, $titlepic){
+    $connection = Select::connect();
+    if (!$statement = $connection->prepare(
+      "INSERT INTO blog (title, author, postDate, blog, tags, titlePic)
+      VALUES (?,?,?,?,?,?)")) {
+      die ("Adding Blog Post Failed: " . $connection->error);
+    }
+    if (!$statement->bind_param("ssssss",$title, $author, $postDate, $blog, $tags, $titlepic)) {
+      die("Blog Post Bind Failed " . $connection->error);
+    }
+    if (!$statement->execute()) {
+      die("Blog execute failed: " . $connection->error);
+    }
+    return true;
+  }
+
+  public static function getBlogPost($id){
+    $connection = Select::connect();
+    $sql = "SELECT * FROM blog WHERE uniqueID = $id";
+    $blogpost = $connection->query($sql);
+    $connection->close();
+    return $blogpost;
   }
 }
  ?>

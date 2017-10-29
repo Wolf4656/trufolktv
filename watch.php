@@ -1,6 +1,5 @@
 <?php include "header.php" ?>
 <?php include "navbar.php" ?>
-<hr>
 <?php include "select.php" ?>
 <?php $result = Select::getVideos(); ?>
 <h1> Watch Our Videos </h1>
