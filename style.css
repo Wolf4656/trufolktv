@@ -16,7 +16,6 @@ body{
 
 footer{
   text-align: center;
-  margin-top: 10%;
   width:100%;
   height:200px;
   border-width:1px 0;
@@ -48,14 +47,16 @@ hr{
   list-style:none;
   margin:0;
   padding:0;
-  width: 100%;
+  width: 80%;
   font-size: 14pt;
+  font-family: "consolas";
+  display: inline-block;
 }
 
 .nav2 li{
-  display:inline;
-  margin-left: 3.5%;
-  margin-right: 3.5%;
+  display: inline;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
 }
 
 .nav2 a{
@@ -199,8 +200,21 @@ td{
 
 .login-form{
   display: inline-block;
+  width: 70%;
   background-color: #C0B283;
-  padding: 15px;
+  padding: 1.5%;
+  margin-bottom: 10%;
+  margin-left: 15%;
+}
+
+.login-form .input-box{
+  width: 20%;
+  align: center;
+  margin-left: 40%;
+}
+
+.login{
+  margin-left: 47%;
 }
 
 .control-panel{
@@ -227,16 +241,13 @@ td{
 }
 
 .fa {
+  padding: 20px;
   font-size: 30px;
   width: 50px;
-  height: 50px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-  display:inline-block;
-  line-height: 50px;
   margin: 10px;
-  margin-bottom: 5px;
 }
 
 .fa:hover {
@@ -301,8 +312,8 @@ td{
 .adminlog{
   float: right;
   display: inline-block;
-  width: 4%;
-  height: 12%;
+  width: 6%;
+  height: 13%;
   border: 1px solid;
   border-radius: 5px;
   margin-right: 5px;
@@ -357,7 +368,7 @@ td{
 }
 
 .recent-blog{
-  width: 37%;
+  width: 38%;
   display: inline-block;
   text-align: center;
   margin-top: 0;
@@ -368,4 +379,27 @@ td{
 
 .blog-feature{
   width: 100%;
+}
+
+.carosel{
+  width: 40%;
+}
+
+.carousel-item img{
+  width: 100%;
+  max-height: 350px;
+}
+
+.search-bar{
+  display: inline-block;
+  width: 19%;
+}
+
+.construction{
+  text-align: center;
+  font-size: 30pt;
+}
+
+.about p{
+  padding-right: 2%;
 }

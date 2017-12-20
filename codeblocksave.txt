@@ -1,0 +1,19 @@
+    <div class="recent-blog">
+
+	<h1>Recent Blog Posts</h1>
+        <?php
+         for($i = mysqli_num_rows($result2)-4; $i < mysqli_num_rows($result2); $i++){
+           $content2 = $result2->fetch_assoc();
+           if ($i == mysqli_num_rows($result2)-4) { ?>
+             <div class="blog-feature">
+               <a href="item.php?id=<?php echo $content2["uniqueID"] ?>"><img class="blog-block" src="uploads/<?php echo $content2["titlePic"] ?>" alt=""><p><?php echo $content2["title"]; ?></p></a>
+             </div>
+           <?php } else { ?>
+
+        <div class="blog-container">
+          <a href="item.php?id=<?php echo $content2["uniqueID"] ?>"><img class="blog-block" src="uploads/<?php echo $content2["titlePic"] ?>" alt=""><p><?php echo $content2["title"]; ?></p></a>
+        </div>
+
+      <?php }} ?>
+
+    </div>

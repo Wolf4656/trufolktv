@@ -9,7 +9,7 @@
    <div class="form-group">
      <input class="input-box"  type="text" name="password" placeholder="Password">
    </div>
-   <br><input type="submit" value="Submit" name="submit">
+   <br><input class="login" type="submit" value="Log-In" name="submit">
  </form>
 </div>
 

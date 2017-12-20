@@ -8,11 +8,11 @@ class Select {
     $mysql_host = "localhost";
     $mysql_user = "wolf4656_1";
     $mysql_password = "root1";
-    $mysql_database = "wolf4656_trufolktv";
+    $mysql_database = "wolf4656_truefolktv";
 
 
     //create connection
-    $connection = new mysqli($mysql_host, $mysql_user, $mysql_password, $mysql_database);
+    $connection = new mysqli('localhost', "wolf4656_1", "root1", "wolf4656_trufolktv");
 
     //check connection
     if ($connection->connect_error) {
@@ -94,16 +94,16 @@ class Select {
    }
 
 
- public static function participants($query){
+ public static function searchBlogs($query){
    $connection = Select::connect();
-
-   $sql = "SELECT tag, region, meleeSingles, meleeDoubles, meleeDoublesPartner, wiiuSingles, wiiuDoubles, wiiuDoublesPartner
-           FROM participants
-           WHERE tag
-           LIKE '%$query%'";
-   $participant = $connection->query($sql);
+   $sql = "SELECT *
+           FROM blog
+           WHERE tags
+           LIKE '%$query%'
+           ORDER BY uniqueID DESC";
+   $searchBlogs = $connection->query($sql);
    $connection->close();
-   return $participant;
+   return $searchBlogs;
  }
 
 

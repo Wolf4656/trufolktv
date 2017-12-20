@@ -3,10 +3,10 @@
 <?php include "select.php" ?>
 
 <?php $result = Select::getBlogs(); ?>
-
-<h3>Blog</h3>
+  <h4 class="construction">PAGE UNDER CONSTRUCTION</h4>
+<!--<h3>Blog</h3>
 <div class="container-fluid">
-<?php
+<?php /*
  for($i = 0; $i < mysqli_num_rows($result); $i++){
    $content = $result->fetch_assoc();
    if ($i == 0) { ?>
@@ -19,7 +19,7 @@
     <a href="item.php?id=<?php echo $content["uniqueID"] ?>"><img class="blog-block" src="uploads/<?php echo $content["titlePic"] ?>" alt=""><h1><?php echo $content["title"]; ?></h1></a>
   </div>
 
-<?php }} ?>
+<?php }} */?>
 </div>
 
 <?php include "footer.php" ?>
