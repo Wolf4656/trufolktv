@@ -12,7 +12,7 @@ class Select {
 
 
     //create connection
-    $connection = new mysqli('localhost', "wolf4656_1", "root1", "wolf4656_trufolktv");
+    $connection = new mysqli('localhost', "wolf4656_1", "root1", "wolf4656_truefolktv");
 
     //check connection
     if ($connection->connect_error) {
