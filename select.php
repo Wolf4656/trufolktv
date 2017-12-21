@@ -98,8 +98,10 @@ class Select {
    $connection = Select::connect();
    $sql = "SELECT *
            FROM blog
-           WHERE tags
-           LIKE '%$query%'
+           WHERE tags LIKE '%$query%'
+           OR author LIKE '%$query%'
+           OR blog LIKE '%$query%'
+           OR title LIKE '%$query%'
            ORDER BY uniqueID DESC";
    $searchBlogs = $connection->query($sql);
    $connection->close();

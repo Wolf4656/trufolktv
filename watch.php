@@ -9,7 +9,9 @@
 ?>
   <div class="watch-container">
     <h3><?php echo $content["title"]?></h3>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/<?php echo $content["thumbnail"] ?>" frameborder="0" allowfullscreen ></iframe>
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/<?php echo $content["thumbnail"] ?>" frameborder="0" allowfullscreen></iframe>
+    </div>
     <p><?php echo $content["description"]?></p>
   </div>
   <hr>

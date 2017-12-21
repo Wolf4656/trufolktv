@@ -17,6 +17,7 @@ $titlepic = $_POST["titlePic"];
 //Add blog post to database
 if (Select::addBlogPost($title, $author, $postDate, $blog, $tags, $titlepic)) {
   echo "SUCCESS!";
+  $blogAdd = true;
   header('Location: /controlpanel.php');
 } else {
   echo "ERROR";

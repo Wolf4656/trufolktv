@@ -1,9 +1,15 @@
 <?php
 session_start();
+global $blogAdd;
+$blogAdd = false;
 if (isset($_SESSION["userName"]) == false) {
   header("Location: /login.php");
 }
-?>
+
+if ($blogAdd == true) {
+  echo '<div class="alert alert-success" role="alert"> <strong>Success!</strong> Blog added.</div>';
+} ?>
+
 <?php include "header.php" ?>
 <?php include "navbar.php" ?>
 <?php include "select.php" ?>
