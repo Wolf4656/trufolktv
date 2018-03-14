@@ -296,7 +296,7 @@ class Select {
     $connection = Select::connect();
     $sql = "SELECT *
             FROM videos
-            ORDER BY title DESC";
+            ORDER BY ID DESC";
     $videos = $connection->query($sql);
     $connection->close();
     return $videos;
