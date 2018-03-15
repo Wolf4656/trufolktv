@@ -87,20 +87,6 @@ hr{
   height: ;
 }
 
-table, th {
-  text-align: center;
-  vertical-align: middle;
-  padding: 10px;
-
-}
-
-td{
-  text-align: center;
-  background-color: #E8FF91;
-  border: 1px solid black;
-  border-spacing: 5px;
-}
-
 .schedule{
   background-color: #C0B283;
   display: inline-block;
