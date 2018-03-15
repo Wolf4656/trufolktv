@@ -336,5 +336,35 @@ class Select {
     $connection->close();
     return $blogpost;
   }
+
+  public static function deleteBlogPost($id){
+    $connection = Select::connect();
+    $sql = "DELETE FROM blog WHERE uniqueID = $id";
+    $Blogpost = $connection->query($sql);
+    $connection->close();
+    return $blogpost;
+  }
+
+  public static function blogByID($ID){
+    $connection = Select::connect();
+    $sql = "SELECT *
+            FROM blog
+            WHERE uniqueID = $ID";
+    $blog = $connection->query($sql);
+    $blog = $blog->fetch_assoc();
+    $connection->close();
+    return $blog;
+  }
+
+  public static function videoByID($ID){
+    $connection = Select::connect();
+    $sql = "SELECT *
+            FROM videos
+            WHERE ID = $ID";
+    $video = $connection->query($sql);
+    $video = $video->fetch_assoc();
+    $connection->close();
+    return $video;
+  }
 }
  ?>
