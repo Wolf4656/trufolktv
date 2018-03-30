@@ -41,7 +41,7 @@
         <input type="text" name="postDate" value="<?php echo $blog["postDate"]?>" style="width: 100px;">
       </td>
       <td>
-        <input type="text" name="blog" value="<?php echo $blog["blog"]?>" style="width: 100px;">
+        <textarea name="blog" type="text" rows="15" cols="80"><?php echo $blog["blog"]?></textarea>
       </td>
       <td>
         <input type="text" name="tags" value="<?php echo $blog["tags"]?>" style="width: 100px;">
